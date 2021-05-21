@@ -40,4 +40,4 @@ jobs:
       - run: yarn solhint
       - run: yarn lint
       - run: yarn test
-      - run: yarn coveralls
+      - run: yarn coverage --network coverage
