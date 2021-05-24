@@ -34,7 +34,7 @@
     "test": "./scripts/test.sh",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
-    "coverage": "truffle run coverage",
+    "coverage": "truffle run coverage --network coverage",
     "coveralls": "yarn coverage && cat coverage/lcov.info | coveralls",
     "prepare": "husky install"
   },
